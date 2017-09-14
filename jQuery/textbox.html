@@ -7,11 +7,11 @@
 </body>
 <body>	
 
-<center><input type="text" id="question-1"/>Just testing!</center>
-<center><button>Click ME</button></center>
+<center><input type="text" id="question-1"/>Type your name!</center>
+<center><button>I KNOW YOUR NAME, CLICK TO FIND OUT</button></center>
 <script>
 $("button").on("click",  function() {
- alert("Just testing!");
+ alert(document.getElementById('question-1').value);
 });
 </script>
 </body>
