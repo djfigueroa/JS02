@@ -1,20 +1,23 @@
- <html>
+<html>
 <head>
 <script src="jquery-3.2.1.min.js"></script>
-
+<center><p style="font-size:100px"></p></center>
 </head>
 <body style="background-color:red;">
 </body>
 <body>	
 
-<center><input type="text" id="question-1"/>Type your name!</center>
+<center><input type="text" id="question-1" value="awesome" />Type your name!</center>
 <center><button>I KNOW YOUR NAME, CLICK TO FIND OUT</button></center>
 <script>
 $("button").on("click",  function() {
- alert(document.getElementById('question-1').value);
-});
+  let x = document.getElementById ("question-1")
+  console.log(x)
+  $("p").text(x.value)
+}); 
+
 </script>
 </body>
 </html>
 
- 
+  
