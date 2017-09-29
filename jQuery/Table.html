@@ -1,0 +1,42 @@
+ <html>
+<head>
+	<script src="jquery-3.2.1.min.js"></script>
+	<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: middle;    
+}
+</style>
+	<title></title>
+</head>
+ <body>
+ <table style="width:100%">
+   <tr>
+   <th>Name</th>
+  </tr>
+  <td id="A"></td>
+  </table>
+  <table style="width:100%">
+  	<tr>
+   <th>Favorite Color</th>
+  </tr>
+  <td id="B"></td>
+  </table>
+  <table style="width:100%">
+  	<tr>
+   <th>Favorite Food</th>
+  </tr>
+    <td id="C"></td>
+  </table>
+<center><input type="text"  id="text_input"/></center>
+ <center><button>What's your name?</button></center>
+ <script>
+ $("button").on("click",  function() {
+  let x = document.getElementById ("text_input")
+  $("A").text(x.value)
+}); 
+</script>
