@@ -14,29 +14,57 @@ th, td {
 	<title></title>
 </head>
  <body>
- <table style="width:100%">
-   <tr>
-   <th>Name</th>
-  </tr>
-  <td id="A"></td>
+ 	<table style="width:100%">
+ 		<tr id="E">
+   			<th>Name</th>
+   			<td id="A"></td>
+   			<td id="X"></td>
+ 		</tr>
+ 		<tr id="F">
+ 			<th>Favorite Color</th>
+   			<td id="B"></td>
+   			<td id="Y"></td>
+ 		</tr>
+ 		<tr id="G">
+ 			<th>Favorite Food</td>
+ 			<td id="C"></td>
+ 			<td id="Z"></td>
+ 		</tr>
   </table>
-  <table style="width:100%">
-  	<tr>
-   <th>Favorite Color</th>
-  </tr>
-  <td id="B"></td>
-  </table>
-  <table style="width:100%">
-  	<tr>
-   <th>Favorite Food</th>
-  </tr>
-    <td id="C"></td>
-  </table>
-<center><input type="text"  id="text_input"/></center>
- <center><button>What's your name?</button></center>
+<center>
+	<input type="text"  id="name"/>
+</center>
+<center>
+	<input type="text"  id="color"/>
+</center>
+<center>
+	<input type="text"  id="food"/>
+</center>
+  <center>
+  	<button id="button1">
+  		Click me!
+  	</button></center>
  <script>
- $("button").on("click",  function() {
-  let x = document.getElementById ("text_input")
-  $("A").text(x.value)
-}); 
+	$("#button1").on("click",  function() {
+  		let x = document.getElementById ("name")
+  		let x1 = document.getElementById ("name")
+  		let y = document.getElementById ("color")
+  		let y1 = document.getElementById ("color")
+  		let z = document.getElementById ("food")
+  		let z1 = document.getElementById ("food")
+
+  		$("#A").text(x.value)
+ 		$("#B").text(y.value)
+  		$("#C").text(z.value)
+  		$("#X").append(x1.value);
+  		$("#Y").append(y1.value);
+  		$("#Z").append(z1.value);
+  		// add a new column
+  			// add an extra td to every tr
+  		// for each text field input
+  			// read text value from field
+  			// put the text value in the new td
+  
+
+  	});
 </script>
