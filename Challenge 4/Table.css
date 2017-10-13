@@ -1,0 +1,15 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+th, td {
+    padding: 5px;
+    text-align: middle;  
+    background-color: white;
+}
+body {
+	background-image: url("https://media.giphy.com/media/129OnZ9Qn2i0Ew/giphy.gif");
+	background-size: 1600px 800px;
+    background-repeat: no-repeat;
+}
