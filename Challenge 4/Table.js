@@ -4,4 +4,6 @@ $("#button1").on("click",  function() {
      	let z = document.getElementById ("food").value
 
   		$('#2').append(`<tr><td>${x}</td><td>${y}</td><td>${z}</td></tr>`)
+
 });
+
