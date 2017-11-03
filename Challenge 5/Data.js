@@ -33,7 +33,7 @@ $("button").click( function() {
 
 $('#answer').append(`
 
-    <th id="color">Addition</th>
+    <tr><th id="color">Addition</th></tr>
 
     <tr>
         <th>myInt + myString?</th>
@@ -41,7 +41,8 @@ $('#answer').append(`
       </tr>
 `);
 
-    $('#answer').append(`<tr>
+    $('#answer').append(`
+        <tr>
           <th>myInt + myNumString?</th>
           <td></td>
         </tr>`);
@@ -53,7 +54,8 @@ $('#answer').append(`
         </tr>`);
 
     $('#answer').append(`        
-      <th id="color">Fancier addition</th>`);
+      <tr><th id="color">Fancier addition</th></tr>
+    `);
 
     $('#answer').append(`        
         <tr>
@@ -74,7 +76,8 @@ $('#answer').append(`
         </tr>`);
 
     $('#answer').append(`       
-     <th id="color">Subtraction</th>`);
+     <tr><th id="color">Subtraction</th></tr>
+    `);
 
     $('#answer').append(`        
         <tr>
@@ -95,7 +98,8 @@ $('#answer').append(`
         </tr>`);
 
     $('#answer').append(`
-      <th id="color">Comparisons</th>`);
+      <tr><th id="color">Comparisons</th></tr>
+    `);
 
     $('#answer').append(` 
         <tr>
