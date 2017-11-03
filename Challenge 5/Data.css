@@ -9,9 +9,8 @@ table, td,th {
     border-collapse: collapse;
     background-color: white;
 }
-
 th, td {
     padding: 5px;
     text-align: middle;  
     background-color: white;
-d
+}
