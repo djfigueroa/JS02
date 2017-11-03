@@ -34,82 +34,52 @@ $("button").click( function() {
 $('#answer').append(`
 
     <tr><th id="color">Addition</th></tr>
-
-    <tr>
+      <tr>
         <th>myInt + myString?</th>
         <td></td>
       </tr>
-`);
-
-    $('#answer').append(`
-        <tr>
+      <tr>
           <th>myInt + myNumString?</th>
           <td></td>
-        </tr>`);
-
-    $('#answer').append(`       
+        </tr>
         <tr>
           <th>myNumString + myInt?</th>
           <td></td>
-        </tr>`);
-
-    $('#answer').append(`        
-      <tr><th id="color">Fancier addition</th></tr>
-    `);
-
-    $('#answer').append(`        
+        </tr>
+        <tr><th id="color">Fancier addition</th></tr>
         <tr>
           <th>myInt + myNumString + myString?</th>
           <td></td>
-        </tr>`);
-
-    $('#answer').append(`
+        </tr>
         <tr>
           <th>myInt + myInt + myString?</th>
           <td></td>
-        </tr>`);
-
-    $('#answer').append(`        
+        </tr>
         <tr>
           <th>myString + myInt + myInt?</th>
           <td></td>
-        </tr>`);
-
-    $('#answer').append(`       
-     <tr><th id="color">Subtraction</th></tr>
-    `);
-
-    $('#answer').append(`        
+        </tr>
+        <tr><th id="color">Subtraction</th></tr>
         <tr>
           <th>myInt - myString?</th>
           <td></td>
-        </tr>`);
-
-    $('#answer').append(`        
+        </tr>
         <tr>
           <th>myInt - myNumString?</th>
           <td></td>
-        </tr>`);
-
-    $('#answer').append(`        
+        </tr>
         <tr>
           <th>myString - myNumString?</th>
           <td></td>
-        </tr>`);
-
-    $('#answer').append(`
-      <tr><th id="color">Comparisons</th></tr>
-    `);
-
-    $('#answer').append(` 
+        </tr>
+        <tr><th id="color">Comparisons</th></tr>
         <tr>
           <th>myInt == myNumString?</th>
           <td></td>
-        </tr>`);
-
-    $('#answer').append(`        
+        </tr>
         <tr>
           <th>myInt === myNumString?</th>
           <td></td>
-        </tr> `);
+        </tr>
+`);
 });
